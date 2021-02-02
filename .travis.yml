@@ -1,9 +1,5 @@
 dist: xenial
-deploy:
-  cleanup: false
-  on:
-    branch:
-    - master
+
 services:
   - postgresql
 addons:
@@ -23,3 +19,7 @@ script:
   - coverage run --branch --source=. ./manage.py test store/ --keepdb --with-xunit
   - coverage xml
   - python-codacy-coverage -r coverage.xml
+  
+on:
+  branch:
+    - master
