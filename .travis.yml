@@ -1,5 +1,9 @@
 dist: xenial
-
+deploy:
+  cleanup: false
+  on:
+    branch:
+    - master
 services:
   - postgresql
 addons:
