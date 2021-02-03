@@ -19,6 +19,6 @@ script:
   - coverage run --branch --source=. ./manage.py test store/ --keepdb --with-xunit
   - coverage xml
   - python-codacy-coverage -r coverage.xml
-deploy:
-  on:
-    branch: desarrollo
+branches:
+  only:
+    - desarrollo
