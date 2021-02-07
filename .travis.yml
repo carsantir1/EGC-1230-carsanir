@@ -16,6 +16,7 @@ install:
   - pip install codacy-coverage
 script:
   - cd decide
+  - cp travis_local_settings.py local_settings.py
   - coverage run --branch --source=. ./manage.py test store/ --keepdb --with-xunit
   - coverage xml
   - python-codacy-coverage -r coverage.xml
