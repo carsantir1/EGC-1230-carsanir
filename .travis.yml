@@ -22,3 +22,8 @@ script:
 branches:
   only:
     - desarrollo
+deploy:
+  provider: heroku
+  app: egc-carsantir-prueba
+  strategy: git
+  api_key: $HEROKU_AUTH_TOKEN
