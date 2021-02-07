@@ -1,7 +1,7 @@
 [![Build Status](https://www.travis-ci.com/carsantir1/EGC-1230-carsanir.svg?branch=desarrollo)](https://www.travis-ci.com/carsantir1/EGC-1230-carsanir) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/3fbef565f334410c952b842f3f335d6d?branch=desarrollo)](https://www.codacy.com/gh/carsantir1/EGC-1230-carsanir/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=carsantir1/EGC-1230-carsanir&amp;utm_campaign=Badge_Grade) [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/3fbef565f334410c952b842f3f335d6d?branch=desarrollo)](https://www.codacy.com/gh/carsantir1/EGC-1230-carsanir/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=carsantir1/EGC-1230-carsanir&amp;utm_campaign=Badge_Coverage)
 
 
-Plataforma voto electrónico educativa cambio de correccion 5
+Plataforma voto electrónico educativa cambio de correccion 6
 =====================================
 
 El objetivo de este proyecto es implementar una plataforma de voto
