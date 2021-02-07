@@ -19,9 +19,6 @@ script:
   - coverage run --branch --source=. ./manage.py test store/ --keepdb --with-xunit
   - coverage xml
   - python-codacy-coverage -r coverage.xml
-branches:
-  only:
-    - desarrollo
 deploy:
   provider: heroku
   app: egc-carsantir-prueba
